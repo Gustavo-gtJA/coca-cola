@@ -51,6 +51,7 @@ h2 {
     transform: translateX(-100%);
     text-align:end;
     font-weight: 250;
+    padding-right: 5px;
 
    
 }
