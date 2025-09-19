@@ -42,13 +42,13 @@ main {
     z-index: -1;
 }
 
-.content-text {
+h2 {
     position: absolute;
     color: #ffffff;
     font-size: 2.5rem;
     width: 240px;
     transform: translateX(-100%);
-    text-align: end;
+    text-align:end;
 }
 
 .content-image {
