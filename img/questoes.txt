@@ -1,0 +1,116 @@
+1. O que é um repositório no Git e qual a sua importância?
+
+Um repositório Git é onde o histórico do seu projeto é armazenado.
+ Ele contém todos os arquivos, pastas e registros de alterações feitas.
+  É essencial para versionamento, colaboração e controle de mudanças em projetos de software.
+
+2. Qual a função do Git Bash?
+
+O Git Bash é um terminal para Windows que permite usar comandos Git no estilo Unix.
+ Ele fornece um ambiente semelhante ao Linux, facilitando o uso dos comandos Git e a automação de tarefas.
+
+3. O que faz o comando git add e qual a diferença entre git add <arquivo> e git add .?
+
+O comando git add adiciona mudanças ao "staging area", preparando arquivos para o commit.
+git add <arquivo>: adiciona um arquivo específico.
+git add .: adiciona todos os arquivos modificados no diretório atual e subdiretórios.
+
+4. Por que utilizamos o ponto (.) no comando git add .?
+
+O ponto (.) indica que o Git deve considerar todos os arquivos alterados a partir do diretório atual.
+ É uma forma prática de preparar várias mudanças para commit de uma vez.
+
+5. Explique o comando git commit e por que é importante criar uma mensagem descritiva.
+
+git commit grava as mudanças adicionadas com git add no histórico do repositório.
+Mensagens descritivas ajudam a entender o que foi alterado, facilitando a manutenção, colaboração e rastreamento de erros.
+
+6. Qual a função do comando git push?
+
+git push envia os commits locais para um repositório remoto (como o GitHub), atualizando o projeto remoto com as mudanças feitas localmente.
+
+7. Qual a importância de criar commits frequentes durante o desenvolvimento de um projeto?
+
+Commits frequentes:
+
+Facilitam o rastreamento de mudanças.
+
+Permitem reverter com mais segurança.
+
+Ajudam na colaboração entre desenvolvedores.
+
+Mantêm o projeto organizado e documentado.
+
+8. Explique a função das tags HTML e como elas estruturam uma página.
+
+Tags HTML são elementos que definem a estrutura e o conteúdo de uma página web, como títulos, parágrafos, imagens, links, etc.
+ Elas organizam o conteúdo hierarquicamente, tornando-o compreensível para navegadores e motores de busca.
+
+9. O que são atributos em uma tag HTML e qual a sua função?
+
+Atributos fornecem informações adicionais sobre uma tag.
+ Por exemplo, href em <a> define o link, e src em <img> define a imagem.
+  Eles modificam ou especificam o comportamento dos elementos HTML.
+
+10. O que é o Emmet e como ele facilita o desenvolvimento de páginas HTML?
+
+Emmet é uma ferramenta que permite escrever abreviações que se expandem em código HTML/CSS completo. Exemplo: ul>li*3 vira uma lista com 3 itens. Economiza tempo e aumenta a produtividade.
+
+11. O que é o box-sizing no CSS e por que usamos ele no reset inicial?
+
+box-sizing define como o tamanho de um elemento é calculado.
+
+content-box: padrão, soma padding e border ao width/height.
+
+border-box: inclui padding e border no width/height.
+Usamos box-sizing: border-box no reset para tornar o layout mais previsível e consistente.
+
+12. Por que é importante utilizar tags semânticas no HTML?
+
+Tags semânticas (como <header>, <article>, <footer>) dão significado ao conteúdo. Isso melhora:
+
+Acessibilidade.
+
+SEO (otimização para mecanismos de busca).
+
+Clareza do código.
+
+Manutenção e colaboração.
+
+13. O que são media queries no CSS e qual a sua função?
+
+Media queries permitem aplicar estilos diferentes dependendo do tamanho da tela ou dispositivo.
+ São fundamentais para design responsivo, adaptando a interface a celulares, tablets e desktops.
+
+14. Qual a função do GitHub Pages?
+
+GitHub Pages permite hospedar páginas web diretamente de um repositório GitHub. Ideal para portfólios, documentações ou projetos estáticos, sem necessidade de servidor próprio.
+
+15. O que é o Flexbox no CSS e para que ele é utilizado?
+
+Flexbox é um modelo de layout CSS que facilita o alinhamento e distribuição de elementos dentro de um contêiner, mesmo com tamanhos variáveis.
+ Torna o design mais flexível e adaptável.
+
+16. Qual a diferença entre justify-content e align-items em um container Flexbox?
+
+justify-content: alinha os itens no eixo principal (horizontal, por padrão).
+
+align-items: alinha os itens no eixo cruzado (vertical, por padrão).
+
+
+17. Como o flex-grow funciona e qual o seu propósito no layout Flexbox?
+
+flex-grow define quanto um item pode crescer em relação aos outros dentro do contêiner.
+Ex:
+
+flex-grow: 1: o item pode crescer.
+
+flex-grow: 2: cresce duas vezes mais que um com valor 1.
+É útil para preencher espaços proporcionalmente.
+
+18. Explique a diferença entre flex-direction: column; e flex-direction: row;.
+
+flex-direction: row;: os itens são dispostos horizontalmente (padrão).
+
+flex-direction: column;: os itens são dispostos verticalmente.
+Isso altera o eixo principal do Flexbox, mudando o comportamento de alinhamento e distribuição.

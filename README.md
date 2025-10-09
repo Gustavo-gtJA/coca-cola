@@ -11,3 +11,4 @@ O site foi desenvolvido uitilizando boas práticas, como por exemplo tags semân
 
 ## Autor
 [Gustavo Teixeira] (<https://github.com/Gustavo-gtJA/coca-cola/>)
+
