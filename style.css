@@ -55,6 +55,26 @@ h2 {
 
    
 }
+.Menu{
+    transition: 1s;
+}
+
+.Menu:hover{
+color: #f19595;
+}
+
+.menu{
+    transition: 1s;
+}
+
+.menu:hover {
+    color: #f19595;
+
+}
+
+
+
+
 
 .content-image {
     height: 85vh;
