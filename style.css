@@ -12,12 +12,13 @@ body{
 }
 
 header, footer {
-height: 100px;
+height: 10vh;
 background-color: #cf2425;
 color: #ffffff;
 display: flex;
 align-items: center;
 justify-content: space-between;
+z-index: 1;
 padding: 0 20px;
 }
 
@@ -27,7 +28,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: -1;
+
+    transition:1s;
 }
 
 .background-logo {
@@ -40,10 +42,10 @@ main {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1;
+    
 }
 
-h2 {
+.content-text {
     position: absolute;
     color: #ffffff;
     font-size: 2.5rem;
@@ -52,11 +54,42 @@ h2 {
     text-align:end;
     font-weight: 250;
     padding-right: 10px;
-
-   
-}
-.Menu{
     transition: 1s;
+}
+.content-text::before,
+.content-text::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    z-index:0;
+    background: #FFFFFF;
+    width: 0;
+    transition: width 0.7s ease;
+}
+
+.content-text::before {
+    top: 0;
+    left: 0;
+}
+
+.content-text::after {
+    bottom: 0;
+    right: 0;
+}
+
+.content-text:hover::before,
+.content-text:active::before {
+    width: 100%;
+}   
+
+.content-text:hover::after,
+.content-text:active::after {
+    width: 100%;
+}
+
+.Menu{
+    transition: 500ms;
+    z-index: 1;
 }
 
 .Menu:hover{
@@ -64,7 +97,7 @@ color: #f19595;
 }
 
 .menu{
-    transition: 1s;
+    transition: s;
 }
 
 .menu:hover {
@@ -79,6 +112,7 @@ color: #f19595;
 .content-image {
     height: 85vh;
     filter: drop-shadow(15px 20px 25px );
+    
 }
 
 header{
@@ -116,7 +150,7 @@ footer div {
         align-items: flex-end;
     }
 
-    h2 {
+    .content-text {
         transform: translateX(0%);
         top: 18vh;
         font-size: 1.8rem;
